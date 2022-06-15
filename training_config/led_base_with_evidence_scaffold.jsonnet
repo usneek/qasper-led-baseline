@@ -3,8 +3,8 @@ local epochs = 10;
 local batch_size = 1;
 local num_gradient_accumulation_steps = 2;
 
-local train_data_path = "TODO";
-local dev_data_path = "TODO";
+local train_data_path = "qasper-train-v0.3.json";
+local dev_data_path = "qasper-dev-v0.3.json";
 
 local training_data_size = 2672;
 local num_gpus = 1;
